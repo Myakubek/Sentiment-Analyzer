@@ -28,10 +28,10 @@ These all add up to 1 and can be displayed as a percentage graphically.
 
 The fourth metric is the compound score which is the aggregated score. This is calculated by summing the valence score(positive, negative, and neutral scores) for each word and the normalizing it between -1 and 1. The higher a compound score the more positive the text is overall.
 
-![](https://github.com/Myakubek/Sentiment-Analyzer/blob/main/Images/Overall%20Sentiment.PNG)  
+![](https://github.com/Myakubek/Sentiment-Analyzer/blob/main/Images/Text%20Sentiment.PNG)  
 
 The model scoring makes sense when looking sentence by sentence, but the result may initially seem unexpected.  
 For example in sentence two: "I'm not needling, really i'm not." a negative score may be expected because of the number of the number of negations and the word "needling".  
 The reason it actually is marked as neutral is because the model recognizes a negative word (needling) being negated heavily (I'm not ... really I'm not) and deems it as neutral sentiment instead.  
 
-![](https://github.com/Myakubek/Sentiment-Analyzer/blob/main/Images/Sentiment%20by%20Sentence.PNG)  
+![](https://github.com/Myakubek/Sentiment-Analyzer/blob/main/Images/Sentence%20Sentiment.PNG)  
